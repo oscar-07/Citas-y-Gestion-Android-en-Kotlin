@@ -3,14 +3,13 @@
 
 Lenguaje: Kotlin
 
-En el presente proyecto, se realizo un reproductor multimedia con la intencion de utilizar correctamente una Cola Circular de tal forma de poner a prueba las Estructuras de datos.
-
+En el presente proyecto, se realizo una Aplicacion Movil en lenguaje Kotlin orientado a la gestion de citas, registro y consulta de usuarios y doctores de un hospital.  
 ![LOGIN](B1.jpg)
 
-## Reproductor
+## Gestion de citas, de acuerdo a horarios y fechas. Siempre y cuando el doctor este disponible
 
 ![Citas](B2.jpg)
 
-## Carga de Archivos
+## Lectura, modificacion y eliminacion de usuarios y doctores.
 
 ![Administracion](B3.jpg)
