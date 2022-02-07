@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradado0">
+
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="411dp"
+        android:layout_height="708dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:context=".Enfermedad4">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hunter"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="3dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textSize="35dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="347dp"
+                    android:layout_height="223dp"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/hunter" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="395dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:text="   Los Hunter que provienen de reptiles suelen tener sobre sus espaldas una piel muy dura, escamosa, y de color verdoso. Sin embargo, la piel de su vientre es más suave y de un color blanquecino, siendo, aparentemente, su único punto vulnerable.
+
+La boca de estas criaturas esta llena de dientes puntiagudos, y afilados, perfectos para alimentarse de carne. Sus garras son extremadamente largas y afiladas, y dada su agilidad natural, estos pueden decapitar a un ser humano con extrema facilidad.."
+                    android:textSize="25dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:text="Zona Afectada"
+                    android:textSize="35dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <ImageView
+
+                    android:id="@+id/imageView8"
+                    android:layout_width="347dp"
+                    android:layout_height="223dp"
+                    android:src="@drawable/cortada" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="395dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:text="  Una cortadura es una ruptura o abertura en la piel. También se le llama laceración. La cortadura puede ser profunda, lisa o mellada. Puede estar cerca de la superficie de la piel o afectar tejidos más profundos. Una cortadura profunda puede afectar los tendones, los músculos, los ligamentos, los nervios o el hueso.
+
+Una punción es una herida hecha con un objeto puntiagudo como un clavo, un cuchillo o un diente afilado. Las heridas por punción a menudo parecen afectar la superficie, pero también pueden extenderse a las capas de tejido más profundas."
+                    android:textSize="25dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:text="Cura"
+                    android:textSize="35dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/vacuna"
+                    android:layout_width="347dp"
+                    android:layout_height="223dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/spray" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="395dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:text="  El Spray de primeros auxilios, también llamado Spray Médico, Spray de ayuda o reflex, es un objeto capaz de recuperar la salud completa del jugador.
+
+Este fue una innovación de Umbrella que al aplicarlo en la zona herida, esta se curaba mucho más rápido, este objeto no cura el envenenamiento."
+                    android:textSize="25dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:gravity="right">
+
+
+                <Button
+                    android:id="@+id/RegresaMenu4"
+                    android:layout_width="90dp"
+                    android:background="@drawable/degradado4"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="Regresar al menu" />
+            </TableRow>
+
+
+        </TableLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

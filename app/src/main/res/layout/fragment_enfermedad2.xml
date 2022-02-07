@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradado0">
+
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="411dp"
+        android:layout_height="708dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:context=".Enfermedad2">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Infeccion"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="3dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:textSize="35dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="347dp"
+                    android:layout_height="223dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/nemesis" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="395dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:text="  Némesis es capaz de atacar de muchas formas, lo cual lo convierte en un óptimo cazador. Entre ellas puede optar por distintas estrategias de ataque, usar herramientas, recuperarse e incluso mutar en ocasiones extremas.
+
+Forma normal
+El virus de mutación T-02 es extremadamente inteligente. Mucho más inteligente que el Tyrant que umbrella había estado utilizando. Usa un tentáculo para atravesar a su enemigo, usa un lanzacohetes hecho específicamente para él, que es demasiado pesado para que un humano normal lo haga, y mucho menos lo opere el sistema de evolución. Los récords muestran que carga otras armas, como un cuchillo de combate, un rifle de asalto y hasta una escopeta. Solo usa sus tentáculos para una ejecución rápida.
+
+Forma cautelosa
+Aunque la armadura interna tiene una ligera protección contra las balas, bajo fuego pesado recibe daño. Entonces entra en un estado «cauteloso». No hay cambios significantes en la apariencia, pero su sistema de defensa causa que use parte de sus tentáculos como arma; optará por esperar el momento oportuno, y entonces atacar con todo lo que tenga. En este modo, los tentáculos están cubiertos por un líquido que afecta al sistema nervioso de la víctima, restringiendo el movimiento de la misma, además de infectarla con el T-Virus para que no sobreviva en caso de escapatoria.
+
+Forma secundaria
+Después de recibir mucho daño, Nemesis se retira para recuperarse; sufre leves alteraciones, así como la de cerrar las heridas más graves. El resultado es la recuperación de heridas, pero debido al daño y el fracaso se convierten en una criatura más violenta e insistente que usa de forma abusiva su ventaja física (así como sus tentáculos). Bajo esta condición de excitación sus tentáculos se sueltan, volviéndose más letal y fluido de lo usual y aumentando su rango de alcance. Némesis no para su ataque aunque acumule heridas serias (p. ej., una lesión en el cuádriceps que le impida correr).
+
+Forma terciaria
+Nemesis, en un momento concreto, perdió su cabeza debido a sus severas heridas, quedando parcialmente desactivado; pero sus módulos secundarios impidieron su muerte. Incluso medio disuelto al caer en un tanque de procesamiento de residuos, tras haber perdido la cabeza, sobrepasando los límites, obliga a sus tejidos corporales a desenvolverse y mutar de forma que pueda seguir activo."
+                    android:textSize="25dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:text="Zona Afectada"
+                    android:textSize="35dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <ImageView
+
+                    android:id="@+id/imageView8"
+                    android:layout_width="347dp"
+                    android:layout_height="223dp"
+                    android:src="@drawable/nervioso" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="395dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:text="  Estos organismos entran al cuerpo y se adhieren a la superficie celular. Dependiendo del tipo de virus, buscan células en diferentes partes del cuerpo, por ejemplo, el hígado, el sistema respiratorio o la sangre. Una vez se haya adherido a la célula sana, entra a ella.
+
+Cuando el virus ya está adentro de la célula se va a abrir para que su ADN y RNA salgan y se dirijan directamente al núcleo. Allí entrarán a una molécula que es como una fábrica que hará copias del virus. Estas copias saldrán del núcleo para ensamblarse y recibir proteína, que es lo que protege al ADN y RNA."
+                    android:textSize="25dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:text="Cura"
+                    android:textSize="35dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/vacuna"
+                    android:layout_width="347dp"
+                    android:layout_height="223dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:src="@drawable/vacuna" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="395dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:text="  El antivirus es un medicamento creado por Umbrella Corporation para tratar a las personas infectadas con el virus T. Se utiliza o se utiliza como un fármaco antirretroviral. Se comporta de manera diferente según el estado del paciente. En aquellos que se infectaron deliberadamente con el virus T, el antivirus se puede utilizar para prevenir la mutación descontrolada. En aquellos infectados durante los brotes, el antivirus detendrá la propagación del virus y la enfermedad fatal que lo acompaña si se toma recientemente después de la infección."
+                    android:textSize="25dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:gravity="right">
+
+
+                <Button
+                    android:id="@+id/RegresaMenu2"
+                    android:layout_width="90dp"
+                    android:background="@drawable/degradado4"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="Regresar al menu" />
+            </TableRow>
+
+
+        </TableLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
