@@ -5,12 +5,12 @@ Lenguaje: Kotlin
 
 En el presente proyecto, se realizo un reproductor multimedia con la intencion de utilizar correctamente una Cola Circular de tal forma de poner a prueba las Estructuras de datos.
 
-![LOGIN](B1.JPG)
+![LOGIN](B1.jpg)
 
 ## Reproductor
 
-![Citas](B2.JPG)
+![Citas](B2.jpg)
 
 ## Carga de Archivos
 
-![Administracion](B3.JPG)
+![Administracion](B3.jpg)
